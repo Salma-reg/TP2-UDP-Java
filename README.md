@@ -66,7 +66,3 @@ java UDPServer 8888
 java BroadcastSender 255.255.255.255 8888
 ```
 
-## Notes
-- All programs auto-detect a suitable network interface (useful on Windows where
-  interface names are not `eth0`).
-- Written and tested on Windows with JDK 21.
